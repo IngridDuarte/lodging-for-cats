@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+
+header img {
+  width: 63px;
+  height: 52px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(100%/3)
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}

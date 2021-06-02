@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import Button from './components/Button'
-import Header from './components/Header'
+import App from './App'
 
 ReactDOM.render(
-  <>
-  <Header />
-  <Button />
-  </>,
+  <App />,
   document.getElementById('root')
 );
 

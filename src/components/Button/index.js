@@ -3,7 +3,7 @@ import React from 'react';
 
 function Button (){
   return (
-    <button>olá</button>
+    <button>Agendar</button>
   )
 }
 
