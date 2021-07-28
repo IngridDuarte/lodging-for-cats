@@ -1,9 +1,13 @@
-import React from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react'
 
-function Button (){
+const Button = ({ onClick, type, children, color }) => {
   return (
-    <button>olá</button>
+    <button
+      onClick={onClick}
+      type={type}
+      color={color} >
+      {children}
+    </button>
   )
 }
 
