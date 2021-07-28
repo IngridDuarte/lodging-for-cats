@@ -1,19 +1,22 @@
-import React from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react'
+import Menu from '../Menu'
 
-function Header (){
+const Header = () => {
+
+  const menuList = [
+    { label: "sobre nós", url: "http://google.com" },
+    { label: "agendamento", url: "http://google.com" },
+    { label: "contato", url: "http://google.com" },
+    { label: "conheça nossos moradores", url: "http://google.com" },
+    { label: "localização", url: "http://google.com" }
+  ]
+
   return (
     <header>
       <div>
         <img href="" alt=""></img>
       </div>
-      <nav>
-       <a href="">sobre nós</a>
-       <a href="">agendamento</a>
-       <a href="">contato</a>
-       <a href="">conheço nossos moradores</a>
-       <a href="">localização</a>
-      </nav>
+      <Menu list={menuList} />
     </header>
   )
 }
