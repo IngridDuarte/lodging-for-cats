@@ -20,7 +20,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "@commitlint/prompt"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "eslintConfig": {
